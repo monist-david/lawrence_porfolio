@@ -120,5 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'Lawrence_Porfolio/static')
+
 # the start page will auto direct to the home page, which is the main page of the home app
 LOGIN_REDIRECT_URL = '/porfolio/'
