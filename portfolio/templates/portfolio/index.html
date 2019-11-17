@@ -87,7 +87,6 @@
             width: 100%;
             max-width: 800px;
           }
-
           .magnify > .magnify-lens {
             background-color: #fff !important; /* Prevent adjacent image from appearing in lens */
           }
@@ -186,10 +185,10 @@
                         <img id ="sample-image6" src="{% static 'portfolio/img/portfolio07.png' %}"data-magnify-src="{% static 'portfolio/img/portfolio07.png' %}" class="zoom">
                     </div>
                     <div class="col-md-4 col-sm-4 padding-right-zero">
-                        <img id ="sample-image7" src="{% static 'portfolio/img/portfolio06.png' %}"data-magnify-src="{% static 'portfolio/img/portfolio08.png' %}" class="zoom">
-                        <img id ="sample-image8" src="{% static 'portfolio/img/portfolio09.png' %}"data-magnify-src="{% static 'portfolio/img/portfolio07.png' %}" class="zoom">
-                        <img id ="sample-image9" src="{% static 'portfolio/img/portfolio10.png' %}"data-magnify-src="{% static 'portfolio/img/portfolio06.png' %}" class="zoom">
-                        <img id ="sample-image10" src="{% static 'portfolio/img/portfolio11.png' %}"data-magnify-src="{% static 'portfolio/img/portfolio06.png' %}" class="zoom">
+                        <img id ="sample-image7" src="{% static 'portfolio/img/portfolio06.png' %}"data-magnify-src="{% static 'portfolio/img/portfolio06.png' %}" class="zoom">
+                        <img id ="sample-image8" src="{% static 'portfolio/img/portfolio09.png' %}"data-magnify-src="{% static 'portfolio/img/portfolio09.png' %}" class="zoom">
+                        <img id ="sample-image9" src="{% static 'portfolio/img/portfolio10.png' %}"data-magnify-src="{% static 'portfolio/img/portfolio10.png' %}" class="zoom">
+                        <img id ="sample-image10" src="{% static 'portfolio/img/portfolio11.png' %}"data-magnify-src="{% static 'portfolio/img/portfolio11.png' %}" class="zoom">
                     </div>
                 </div>
             </div>
@@ -333,7 +332,7 @@
     });
     $('html').on({
       magnifystart: function() {
-        console.log('\'magnifys
+        console.log('\'magnify\' event fired')
       },
       magnifyend: function() {
         console.log('\'magnifyend\' event fired');
